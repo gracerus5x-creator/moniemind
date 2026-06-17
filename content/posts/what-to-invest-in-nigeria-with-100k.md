@@ -48,7 +48,7 @@ One thing to get clear before you invest: your goal horizon. Are you trying to g
 
 If your primary goal is capital preservation with modest growth, regulated mutual funds are your starting point.
 
-[Cowrywise](AFFILIATE_LINK_PLACEHOLDER:direct:cowrywise) is [SEC Nigeria-registered](https://sec.gov.ng/cmos-fund-managers/) and gives you access to money market funds, fixed income funds, and equity funds — all from one app. The minimum investment is [₦100](https://cowrywise.com), which means your full ₦100,000 can be deployed immediately with no idle capital.
+[Cowrywise](https://cowrywise.com/) is [SEC Nigeria-registered](https://sec.gov.ng/cmos-fund-managers/) and gives you access to money market funds, fixed income funds, and equity funds — all from one app. The minimum investment is [₦100](https://cowrywise.com), which means your full ₦100,000 can be deployed immediately with no idle capital.
 
 **Why this works for ₦100k:**
 - Money market funds currently offer competitive yields compared to traditional savings accounts
@@ -65,7 +65,7 @@ If your primary goal is capital preservation with modest growth, regulated mutua
 
 The [NGX (Nigerian Exchange)](https://ngxgroup.com/exchange/data/indices/) — the rebranded entity formerly known as the NSE since 2021 — has seen some individual stocks deliver remarkable returns. Recent headlines note [eight stocks delivered over 200% returns in just five months](https://businessday.ng) in 2026. That's exceptional, not typical — but it illustrates the opportunity in selective equity exposure.
 
-Both [Trove](AFFILIATE_LINK_PLACEHOLDER:direct:trove) and [Bamboo](AFFILIATE_LINK_PLACEHOLDER:direct:bamboo) offer NGX stock access alongside US equities.
+Both [Trove](https://trove.com/) and [Bamboo](https://play.google.com/store/apps/details?id=com.invest.bamboo&referrer=augustine922350) offer NGX stock access alongside US equities.
 
 ### Platform Comparison: Trove vs. Bamboo for ₦100,000
 
@@ -99,7 +99,7 @@ Since June 2023, the CBN unified its multiple FX windows into a single [Nigerian
 
 1. **Domiciliary account at GTBank, Access, Zenith, UBA, or First Bank:** You can open one and receive dollar transfers into it. Per [CBN guidelines](https://www.cbn.gov.ng/Out/2024/CCD/Domiciliary%20Account%20Guidelines.pdf), cash deposits are restricted — the primary inflow channels are wire transfers, inward remittances, and DOM-to-DOM transfers between Nigerian banks. ₦100,000 won't buy much at current rates, but starting the account now positions you for future inflows.
 
-2. **Dollar-denominated investments via Bamboo:** [Bamboo](AFFILIATE_LINK_PLACEHOLDER:direct:bamboo) allows you to invest in US-listed ETFs. At a minimum of [~$5](https://bamboo.investments), you can start converting portions of your ₦100,000 into dollar-value-linked assets.
+2. **Dollar-denominated investments via Bamboo:** [Bamboo](https://play.google.com/store/apps/details?id=com.invest.bamboo&referrer=augustine922350) allows you to invest in US-listed ETFs. At a minimum of [~$5](https://bamboo.investments), you can start converting portions of your ₦100,000 into dollar-value-linked assets.
 
 3. **Stablecoins via licensed VASPs:** As of 2024, the CBN [reversed its 2021 banking ban on crypto-related transactions](https://www.cbn.gov.ng/Out/2023/CCD/Crypto%20Operational%20Guidelines.pdf), and [SEC Nigeria now licenses Virtual Asset Service Providers (VASPs)](https://sec.gov.ng). Holding USDT or USDC on a licensed platform gives you synthetic dollar exposure. Grey (recently reported processing [$61 million via stablecoins](https://techcabal.com)) and similar platforms have made this more mainstream among Nigerian professionals. This carries its own risks — platform risk, regulatory evolution — but it's a legitimate, growing option.
 
@@ -107,7 +107,7 @@ Since June 2023, the CBN unified its multiple FX windows into a single [Nigerian
 
 ## Option 4: PiggyVest for Discipline + Savings Yield
 
-Before you invest in anything volatile, you need an emergency buffer. [PiggyVest](AFFILIATE_LINK_PLACEHOLDER:direct:piggyvest) is [SEC Nigeria-registered](https://sec.gov.ng/cmos-fund-managers/) and has no minimum deposit requirement. Its SafeLock feature encourages commitment savings — you lock funds for a set period and earn interest above typical savings rates.
+Before you invest in anything volatile, you need an emergency buffer. [PiggyVest](https://piggyvest.com/) is [SEC Nigeria-registered](https://sec.gov.ng/cmos-fund-managers/) and has no minimum deposit requirement. Its SafeLock feature encourages commitment savings — you lock funds for a set period and earn interest above typical savings rates.
 
 **Suggested use:** Put ₦25,000–₦30,000 of your ₦100,000 into a PiggyVest SafeLock for 3–6 months. This becomes your liquid emergency base while the rest of your money works harder in equities or mutual funds.
 
@@ -123,10 +123,10 @@ You may have seen Risevest marketed in your feeds. Be aware: [SEC Nigeria has pu
 
 | Allocation | Amount | Platform | Purpose |
 |---|---|---|---|
-| Emergency buffer | ₦25,000 | [PiggyVest](AFFILIATE_LINK_PLACEHOLDER:direct:piggyvest) | Liquid savings base |
-| Money market fund | ₦30,000 | [Cowrywise](AFFILIATE_LINK_PLACEHOLDER:direct:cowrywise) | Short-term yield, low risk |
-| NGX equities | ₦25,000 | [Trove](AFFILIATE_LINK_PLACEHOLDER:direct:trove) | Local equity growth |
-| US ETF / dollar-linked | ₦20,000 | [Bamboo](AFFILIATE_LINK_PLACEHOLDER:direct:bamboo) | FX hedge, global exposure |
+| Emergency buffer | ₦25,000 | [PiggyVest](https://piggyvest.com/) | Liquid savings base |
+| Money market fund | ₦30,000 | [Cowrywise](https://cowrywise.com/) | Short-term yield, low risk |
+| NGX equities | ₦25,000 | [Trove](https://trove.com/) | Local equity growth |
+| US ETF / dollar-linked | ₦20,000 | [Bamboo](https://play.google.com/store/apps/details?id=com.invest.bamboo&referrer=augustine922350) | FX hedge, global exposure |
 
 This is a starting framework, not financial advice. Adjust based on your income stability, risk tolerance, and whether you have existing savings elsewhere.
 
@@ -147,7 +147,7 @@ This is a starting framework, not financial advice. Adjust based on your income 
 
 Start with discipline (PiggyVest), add yield (Cowrywise), add growth (Trove/NGX), and add dollar exposure (Bamboo). Review quarterly. Increase contributions as your income grows.
 
-**Ready to start?** Open a [Cowrywise](AFFILIATE_LINK_PLACEHOLDER:direct:cowrywise) account in under 10 minutes — minimum ₦100, fully SEC-registered, and a clean onboarding experience that won't make you feel like you need a finance degree to use it.
+**Ready to start?** Open a [Cowrywise](https://cowrywise.com/) account in under 10 minutes — minimum ₦100, fully SEC-registered, and a clean onboarding experience that won't make you feel like you need a finance degree to use it.
 
 *Nothing in this article constitutes financial advice. Investment values can fall as well as rise. Always verify platform registration at [sec.gov.ng](https://sec.gov.ng) before committing funds.*
 
