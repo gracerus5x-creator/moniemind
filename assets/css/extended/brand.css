@@ -1,0 +1,227 @@
+/* ============================================================================
+   MONIEMIND — Premium design system
+   Inspired by: NerdWallet, MoneyWeek, The Plunge
+   Aesthetic: Financial-pro, data-confident, naija-native
+   ============================================================================ */
+
+:root {
+  --primary:    #16A34A;
+  --primary-50: #F0FDF4;
+  --primary-100:#DCFCE7;
+  --secondary:  #0E7A37;
+  --accent:     #22C55E;
+  --tertiary:   #0A1F44;   /* deep navy — auxiliary brand color */
+  --content:    #111827;
+  --code-bg:    #F0F9F4;
+  --border:     #E5E7EB;
+  --theme:      #FFFFFF;
+  --entry:      #FAFAFA;
+  --muted:      #6B7280;
+  --success:    #16A34A;
+  --warning:    #F59E0B;
+  --danger:     #DC2626;
+  --gold:       #EAB308;   /* for premium / featured callouts */
+
+  --font-sans:  "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  --font-mono:  "JetBrains Mono", ui-monospace, "SF Mono", Consolas, monospace;
+  --font-display: "Inter", -apple-system, BlinkMacSystemFont, sans-serif;
+  --font-numbers: "Inter", "Roboto", system-ui, sans-serif;
+}
+.dark {
+  --primary:    #22C55E;
+  --primary-50: #0A2818;
+  --primary-100:#112A1D;
+  --secondary:  #16A34A;
+  --accent:     #4ADE80;
+  --tertiary:   #CBD5E1;
+  --content:    #E5E7EB;
+  --code-bg:    #0F1A2E;
+  --border:     #1E293B;
+  --theme:      #0A1F44;
+  --entry:      #112447;
+  --muted:      #9CA3AF;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500;700&display=swap');
+
+/* --- Base typography ------------------------------------------------------- */
+body, html { font-family: var(--font-sans); -webkit-font-smoothing: antialiased;
+             color: var(--content); }
+h1, h2, h3, h4, h5, h6 { font-family: var(--font-display); letter-spacing: -0.025em;
+                          line-height: 1.15; color: var(--tertiary); }
+h1 { font-weight: 900; font-size: clamp(2.2rem, 5vw, 3.4rem); }
+h2 { font-weight: 800; font-size: clamp(1.6rem, 3vw, 2.2rem); margin-top: 2em; }
+h3 { font-weight: 700; font-size: clamp(1.3rem, 2.4vw, 1.7rem); margin-top: 1.6em; }
+p, li { line-height: 1.78; font-size: 1.08rem; }
+
+/* Tabular numbers everywhere money is shown */
+.amount, .naira-amount, .post-content td:nth-child(n+2), .post-content table {
+  font-variant-numeric: tabular-nums lining-nums;
+}
+
+/* --- Header — bank/news pro -------------------------------------------- */
+.nav { padding: 16px 0; border-bottom: 1px solid var(--border);
+       background: rgba(255,255,255,0.95); backdrop-filter: blur(8px); }
+.logo a { gap: 14px; }
+.logo a img { border-radius: 8px; box-shadow: 0 2px 8px rgba(22,163,74,0.15); }
+.logo a strong { font-weight: 900; letter-spacing: -0.03em; font-size: 1.35rem;
+                  color: var(--tertiary); }
+#menu li a { font-weight: 600; padding: 8px 14px; border-radius: 6px;
+             font-size: 0.95rem; color: var(--content); transition: all 0.15s; }
+#menu li a:hover { background: var(--primary-50); color: var(--primary); }
+
+/* --- Hero / home page — money confident ---------------------------------- */
+.home-info { padding: 56px 48px; margin-bottom: 32px;
+              background: linear-gradient(135deg, var(--tertiary) 0%, #1E3A8A 100%);
+              border-radius: 12px; color: white;
+              position: relative; overflow: hidden; }
+.home-info::after {
+  content: '₦'; position: absolute; right: -40px; bottom: -80px;
+  font-size: 360px; font-weight: 900; color: var(--accent);
+  opacity: 0.08; line-height: 1; font-family: var(--font-display);
+}
+.home-info .post-title { font-size: clamp(2.4rem, 6vw, 3.8rem); font-weight: 900;
+                          color: white; margin-bottom: 16px; }
+.home-info .post-title::after {
+  content: ''; display: block; width: 80px; height: 4px;
+  background: var(--accent); margin-top: 16px; border-radius: 2px;
+}
+.home-info .post-content { color: rgba(255,255,255,0.92); }
+.home-info .post-content p { font-size: 1.25rem; max-width: 65ch; line-height: 1.6;
+                              color: rgba(255,255,255,0.92); }
+.home-info a { color: var(--accent); }
+
+/* --- Article cards (list/index) ------------------------------------------- */
+.post-entry { border-radius: 10px; border: 1px solid var(--border); padding: 26px;
+              transition: all 0.2s ease; background: var(--entry); }
+.post-entry:hover { transform: translateY(-2px);
+                     box-shadow: 0 12px 28px rgba(10,31,68,0.10);
+                     border-color: var(--primary); }
+.post-entry .entry-header h2 { font-weight: 800; font-size: 1.5rem;
+                                margin-top: 0; line-height: 1.2;
+                                color: var(--tertiary); }
+.post-entry .entry-content { color: var(--muted); font-size: 1.02rem; }
+.post-entry .entry-footer { font-size: 0.88rem; color: var(--muted); }
+
+/* --- Article body --------------------------------------------------------- */
+.post-content { font-size: 1.1rem; line-height: 1.85; max-width: 72ch; }
+.post-content > p:first-of-type {
+  font-size: 1.22rem; line-height: 1.7; color: var(--content);
+}
+.post-content > p:first-of-type::first-letter {
+  font-size: 4rem; font-weight: 900; float: left; line-height: 0.85;
+  margin: 6px 14px 0 0;
+  background: linear-gradient(135deg, var(--primary), var(--accent));
+  -webkit-background-clip: text; -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+.post-content h2 { display: flex; align-items: baseline; gap: 12px; }
+.post-content h2::before {
+  content: ''; display: inline-block; width: 6px; height: 1em;
+  background: linear-gradient(180deg, var(--primary), var(--accent));
+  border-radius: 2px;
+}
+.post-content blockquote {
+  border-left: 4px solid var(--primary); padding: 16px 24px;
+  background: var(--primary-50); border-radius: 0 8px 8px 0;
+  font-style: normal; color: var(--content);
+}
+.post-content a { color: var(--primary); text-decoration: underline;
+                   text-underline-offset: 3px; text-decoration-thickness: 1.5px;
+                   font-weight: 600; transition: all 0.15s; }
+.post-content a:hover { color: var(--secondary); text-decoration-thickness: 2px; }
+
+/* --- Comparison tables (the bread and butter of fintech reviews) ---------- */
+.post-content table { width: 100%; border-collapse: collapse;
+                       margin: 32px 0; font-size: 0.95rem;
+                       border-radius: 10px; overflow: hidden;
+                       border: 1px solid var(--border);
+                       box-shadow: 0 2px 8px rgba(10,31,68,0.06); }
+.post-content thead { background: linear-gradient(135deg, var(--tertiary) 0%, #1E3A8A 100%);
+                       color: white; }
+.post-content th { padding: 14px 16px; font-weight: 700; text-align: left;
+                    letter-spacing: 0.02em; font-size: 0.82rem;
+                    text-transform: uppercase; }
+.post-content td { padding: 14px 16px; border-bottom: 1px solid var(--border);
+                    vertical-align: top; }
+.post-content tbody tr:last-child td { border-bottom: none; }
+.post-content tbody tr:nth-child(even) { background: var(--primary-50); }
+.post-content tbody tr:hover { background: var(--primary-100); }
+.post-content td:nth-child(n+2) { text-align: right; font-weight: 600; }
+
+/* --- Inline code --------------------------------------------------------- */
+.post-content code:not(pre code) {
+  background: var(--primary-50); color: var(--secondary);
+  padding: 2px 6px; border-radius: 4px; font-size: 0.92em;
+  font-family: var(--font-mono); font-weight: 600;
+}
+
+/* --- Affiliate + Financial disclaimers ----------------------------------- */
+.post-content blockquote:has(strong:first-child),
+.disclosure {
+  background: linear-gradient(135deg, #FFF7ED 0%, #FFEDD5 100%);
+  border-left: 4px solid var(--warning);
+  padding: 16px 20px; border-radius: 6px; margin: 24px 0;
+  font-size: 0.98rem; font-weight: 500;
+}
+.financial-disclaimer {
+  background: linear-gradient(135deg, #FEF2F2 0%, #FEE2E2 100%);
+  border-left: 4px solid var(--danger);
+  padding: 16px 20px; border-radius: 6px; margin: 32px 0;
+  font-size: 0.95rem;
+}
+.dark .disclosure { background: linear-gradient(135deg, #1F1209 0%, #2A1810 100%); }
+.dark .financial-disclaimer { background: linear-gradient(135deg, #1F0B0B 0%, #2A1414 100%); }
+
+/* --- Currency / amount badge ---------------------------------------------- */
+.naira-amount, .amount {
+  font-variant-numeric: tabular-nums;
+  font-weight: 700; color: var(--tertiary);
+  background: var(--primary-50);
+  padding: 2px 8px; border-radius: 4px;
+  font-family: var(--font-numbers);
+}
+
+/* --- Tags ---------------------------------------------------------------- */
+.post-tags a { background: var(--primary); color: white; border: none;
+                font-weight: 600; padding: 6px 12px; border-radius: 6px;
+                font-size: 0.8rem; }
+.post-tags a:hover { background: var(--secondary); transform: translateY(-1px); }
+
+/* --- Pagination ---------------------------------------------------------- */
+.pagination a { background: var(--primary); color: white; padding: 10px 20px;
+                 border-radius: 8px; font-weight: 600; }
+
+/* --- Footer ---------------------------------------------------------------- */
+footer.footer { border-top: 1px solid var(--border); padding: 32px 0;
+                margin-top: 64px; color: var(--muted); font-size: 0.9rem; }
+
+/* --- Post meta (date, reading time) -------------------------------------- */
+.post-meta { font-size: 0.9rem; color: var(--muted);
+             display: flex; gap: 16px; align-items: center; margin-bottom: 24px; }
+
+/* --- Home category cards (4-up under hero) -------------------------------- */
+.home-categories { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+                   gap: 16px; margin: 32px 0 8px 0; position: relative; z-index: 2; }
+.home-category-card { display: flex; gap: 14px; padding: 20px;
+                       border: 1px solid var(--border); border-radius: 10px;
+                       background: var(--theme); color: var(--content);
+                       text-decoration: none !important; transition: all 0.2s ease;
+                       align-items: flex-start; }
+.home-category-card:hover { transform: translateY(-3px); border-color: var(--primary);
+                             box-shadow: 0 12px 28px rgba(10,31,68,0.10);
+                             color: var(--content) !important; }
+.home-category-icon { font-size: 26px; line-height: 1; flex: 0 0 auto;
+                       background: var(--primary-50); padding: 10px;
+                       border-radius: 8px; }
+.home-category-title { margin: 0 0 6px 0; font-size: 1.05rem; font-weight: 800;
+                        color: var(--tertiary); letter-spacing: -0.01em; }
+.home-category-desc { margin: 0; font-size: 0.92rem; color: var(--muted); line-height: 1.5; }
+
+@media (max-width: 768px) {
+  .post-content > p:first-of-type::first-letter { font-size: 3rem; }
+  .home-info { padding: 32px 24px; }
+  .home-info::after { font-size: 220px; right: -20px; bottom: -50px; }
+  .post-entry { padding: 20px; }
+  .home-categories { grid-template-columns: 1fr; }
+}

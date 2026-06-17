@@ -19,12 +19,57 @@ ShowToc = true
 ShowBreadCrumbs = true
 disableScrollToTop = false
 
+# Analytics — leave blank until you have the IDs; the partial gracefully no-ops.
+googleAnalytics = ""
+cloudflareAnalyticsToken = ""
+
+# Home category cards (shown under the hero on /)
+[[params.homeCategories]]
+title = "Investment Apps"
+icon = "📈"
+url = "/categories/investment-apps/"
+description = "Bamboo, Cowrywise, Trove, PiggyVest — fees, withdrawals, the unpolished truth."
+
+[[params.homeCategories]]
+title = "Dollar Access"
+icon = "💵"
+url = "/categories/dollar-access/"
+description = "Dom accounts, P2P, virtual cards, remittances. What actually works from Lagos."
+
+[[params.homeCategories]]
+title = "NGX & Stocks"
+icon = "📊"
+url = "/categories/ngx/"
+description = "How to buy NGX shares, US stocks from Nigeria, dollar-denominated portfolios."
+
+[[params.homeCategories]]
+title = "₦100k Starters"
+icon = "🎯"
+url = "/categories/budget-investing/"
+description = "Real strategies for ₦50k–₦500k starting capital. No 'just save more' fluff."
+
 [params.homeInfoParams]
 Title = "Moniemind"
 Content = "Personal finance for Nigerian professionals — investing apps, dollar access, NGX, and beyond."
 
 [params.assets]
 disableHLJS = true
+favicon = "/favicon.svg"
+favicon16x16 = "/favicon.svg"
+favicon32x32 = "/favicon.svg"
+apple_touch_icon = "/favicon.svg"
+safari_pinned_tab = "/favicon.svg"
+
+[params.label]
+text = "Moniemind"
+icon = "/logo.svg"
+iconHeight = 40
+
+[params.cover]
+image = "/og-image.svg"
+hidden = false
+hiddenInList = false
+hiddenInSingle = false
 
 [markup.goldmark.renderer]
 unsafe = true
@@ -38,3 +83,27 @@ identifier = "posts"
 name = "Posts"
 url = "/posts/"
 weight = 10
+
+[[menu.main]]
+identifier = "about"
+name = "About"
+url = "/about/"
+weight = 20
+
+[[menu.main]]
+identifier = "contact"
+name = "Contact"
+url = "/contact/"
+weight = 30
+
+[[menu.main]]
+identifier = "disclosure"
+name = "Disclosure"
+url = "/disclosure/"
+weight = 40
+
+[[menu.main]]
+identifier = "privacy"
+name = "Privacy"
+url = "/privacy/"
+weight = 50
